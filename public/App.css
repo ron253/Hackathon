@@ -1,0 +1,79 @@
+.App {
+  text-align: center;
+ 
+}
+
+.inner-form {
+  height: 200px;
+  width: 400px;
+
+
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -100px;
+    margin-left: -200px;
+}
+
+input[type=text]{
+  
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+   border-radius: 20px;
+   border: 1px solid #2d9fd9;
+   color: #000000;
+   width: 400px;
+   height: 50px;
+   padding-left: 10px;
+  }
+
+  .icon {
+
+    position:absolute;
+    
+    right:0;
+    top:10px;
+    padding:10px 10px;
+    color:#30A3F1;
+    border:none;
+    background:none;
+   
+
+  }
+
+.icon:hover {
+  cursor:pointer;
+
+}
+.title {
+  color:#000000;
+  margin-top:10%;
+
+}
+
+.SearchIcon{
+  font-size: 20px;
+}
+
+
+.imgs {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  max-height:50%; 
+  max-width:50%;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top:0%;
+  width: 100%;
+}
+
+#home-img {
+
+  margin-top:10%;
+}
